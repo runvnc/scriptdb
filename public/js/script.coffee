@@ -3,9 +3,6 @@ window.MainCntl = ($scope, $route, $routeParams, $location, $http) ->
   $scope.$location = $location
   $scope.$routeParams = $routeParams
 
-  $scope.setLocation = (url) ->
-    $scope.$location.path url
-
 DashCntl = ($scope, $routeParams, $resource) ->
   $scope.$resource = $resource
   $scope.name = "DashCntl"
